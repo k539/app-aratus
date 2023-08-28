@@ -111,6 +111,15 @@ h6 {
     padding: 6vw 3vw 0vw 3vw;
 }
 
+.small_text {
+    color: #000000;
+    font-family: Roboto-Regular;
+    font-size: 3vw;
+    /* top, right, bottom, left */
+    padding: 0vw 0vw 6vw 0vw;
+    text-align: center;
+}
+
 .basic_text_border {
     color: #000000;
     font-family: Roboto-Regular;
