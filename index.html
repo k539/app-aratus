@@ -9,7 +9,6 @@
         <meta name="description" content="Handyman services provided by App-aratus.">
         <link rel="stylesheet" type="text/css" href="assets/fonts_css/roboto.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <script src="https://web3forms.com/client/script.js" async defer></script>
     </head>
     <body>
         <div class="row-container">
@@ -60,7 +59,11 @@
                 <a class="cp" href="tel:720-840-1675">Call Now 720-840-1675</a>
             </div>
         </div>
-        <div class="basic_text"> Send us a note. </div>
+        <div class="basic_text"> 
+            Send us a note. 
+        </div>
+
+        <!--
         <form class="vintage_envelope" action="https://api.web3forms.com/submit" method="POST">
             <div class="image_right">
                 <img class="image_right" src="assets/images/vintage_airmail.jpg" alt="App-aratus, Your Handyman On-demand Image">
@@ -74,6 +77,21 @@
             <div class="h-captcha" data-captcha="true"></div>
             <button type="submit">Submit</button>
         </form>
+        -->
+
+<form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="7b427d05-445d-4c61-ab4e-9221ea102320">
+    <input type="text" name="name" required>
+    <input type="email" name="email" required>
+    <textarea name="message" required></textarea>
+    <div class="h-captcha" data-captcha="true"></div>
+    <button type="submit">Submit Form</button>
+
+</form>
+<script src="https://web3forms.com/client/script.js" async defer></script>
+
+
+
         <script src="https://web3forms.com/client/script.js" async defer></script>
         <div class="basic_text"> Let our locally owned handyman business make your "fix it list" dreams come true! We'll fix it, you enjoy your weekends. </div>
         <div class="colorado_high_mountains"></div>
