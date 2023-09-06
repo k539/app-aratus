@@ -219,5 +219,5 @@ a.cp:hover {
 
 .scaled-div {
     /* transform: scale(0.70); */
-    transform: translateX(90vw);
+    width: 80%;
 }
