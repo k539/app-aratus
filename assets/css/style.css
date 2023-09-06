@@ -218,6 +218,5 @@ a.cp:hover {
 }
 
 .scaled-div {
-  width: 70vw;
-  height: auto;
+  transform: scale(0.7);
 }
