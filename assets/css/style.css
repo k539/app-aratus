@@ -97,18 +97,16 @@ button {
 
 /* Style for the first section (image) */
 .image-section {
-    flex: 0 0 30%;
     /* 30% width of the container */
-    ;
+    flex: 0 0 30%;
 }
 
 /* Style for the second section (text) */
 .text-section {
-    flex: 1;
     /* The rest of the available space */
-    padding: 0vw;
+    flex: 1;
     /* Add padding for spacing */
-    ;
+    padding: 0vw;
 }
 
 /* Style for the image */
@@ -217,4 +215,9 @@ a.cp:hover {
         repeating-linear-gradient(-45deg, red 0, red 12.5%, transparent 0, transparent 25%,
             #58a 0, #58a 37.5%, transparent 0, transparent 50%) 0 / 18vw 18vw;
     max-width: 100%;
+}
+
+.scaled-div {
+  width: 70vw;
+  height: auto;
 }
