@@ -142,8 +142,7 @@ button {
     padding: 0vw 0vw 3vw 0vw;
 }
 
-.phone_colorado_background {
-    background-image: url("../images/colorado_foothills_phone.jpg");
+.general_purpose {
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
